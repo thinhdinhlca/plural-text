@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "column",
+    "name": "Plural",
+    "description": "Format your text to plural based on a number.",
+    "author": "Thinh Dinh <thinh@lowcode.agency>",
+    "params": [
+      {
+        "name": "txt",
+        "displayName": "Singular/Plural form of text (e.g: teacher/teachers, shelf/shelves, watch/watches)",
+        "type": "string"
+      },
+      {
+        "name": "number",
+        "displayName": "number",
+        "type": "number"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
