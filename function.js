@@ -10,7 +10,7 @@ window.function = function (txt, number) {
   if (index == -1 || number == "")
     txt = "0 " + txt.substring(index+1,len);
 
-  else if (number > 1 || number == 0)
+  else if (number > 1 || number == 0 || number < -1)
     txt = number + " " + txt.substring(index+1,len);
 
   else
